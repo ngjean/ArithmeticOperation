@@ -14,7 +14,9 @@ public class ArithmeticOperationsTest {
 		ArithmeticOperations operations = new ArithmeticOperations();
 		Integer actual = operations.addOrSub(2, 6);
 		Integer expected = 8;
-		assertEquals(expected, actual);
+		Integer Notexpected = 2;
+		//assertEquals(expected, actual);
+		assertEquals(Notexpected, actual);
 
 	}
 /*
